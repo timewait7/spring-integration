@@ -9,5 +9,8 @@
         <module name="spring-integration" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-jwt" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
